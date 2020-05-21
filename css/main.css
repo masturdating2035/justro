@@ -1,0 +1,29 @@
+@font-face {
+  font-family: shabnam;
+  src: url("../fonts/Shabnam.woff") format("woff"), url("../fonts/Shabnam.woff2") format("woff2");
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: shabnam;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  direction: rtl;
+}
+
+a,
+a:hover {
+  text-decoration: none;
+}
+
+li {
+  list-style-type: none;
+}
+/*# sourceMappingURL=main.css.map */

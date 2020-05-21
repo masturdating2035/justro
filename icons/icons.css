@@ -1,0 +1,91 @@
+@font-face {
+  font-family: 'icomoon';
+  src:  url('fonts/icomoon.eot?hpa5gc');
+  src:  url('fonts/icomoon.eot?hpa5gc#iefix') format('embedded-opentype'),
+    url('fonts/icomoon.ttf?hpa5gc') format('truetype'),
+    url('fonts/icomoon.woff?hpa5gc') format('woff'),
+    url('fonts/icomoon.svg?hpa5gc#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-telegram1:before {
+  content: "\e910";
+  color: #2ca5e0;
+}
+.icon-search:before {
+  content: "\e90f";
+}
+.icon-shopping-bag-fill:before {
+  content: "\e900";
+}
+.icon-interface:before {
+  content: "\e901";
+}
+.icon-social-media:before {
+  content: "\e902";
+}
+.icon-telegram:before {
+  content: "\e903";
+}
+.icon-brands-and-logotypes:before {
+  content: "\e904";
+}
+.icon-logo:before {
+  content: "\e905";
+}
+.icon-wifi:before {
+  content: "\e906";
+}
+.icon-cellphone:before {
+  content: "\e907";
+}
+.icon-battery:before {
+  content: "\e908";
+}
+.icon-favorites:before {
+  content: "\e909";
+}
+.icon-nearme:before {
+  content: "\e90a";
+}
+.icon-fly:before {
+  content: "\e90b";
+}
+.icon-hotel:before {
+  content: "\e90c";
+}
+.icon-restaurant:before {
+  content: "\e90d";
+}
+.icon-didani:before {
+  content: "\e90e";
+}
+.icon-phone:before {
+  content: "\e942";
+}
+.icon-envelop:before {
+  content: "\e945";
+}
+.icon-instagram:before {
+  content: "\ea92";
+}
+.icon-twitter:before {
+  content: "\ea96";
+}

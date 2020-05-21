@@ -1,0 +1,17 @@
+@mixin flex-center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+@mixin btn {
+    width: 12rem;
+    height: 4rem;
+    border-radius: 2.5rem;
+    box-shadow: 0 .7rem 2rem 0 rgba(227, 84, 39, 0.3);
+    outline: none;
+    cursor: pointer;
+    color: #ffffff;
+    font-size: 1.5rem;
+    background-image: linear-gradient(to top, $color-secondary-dark, $color-secondary);
+}
