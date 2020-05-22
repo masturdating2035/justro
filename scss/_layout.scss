@@ -1,7 +1,140 @@
+.navigate {
+  position: relative;
+  z-index: 200;
+  background-color: #e0e0e0;
+  display: flex;
+  justify-content: space-between;
+
+  .justro {
+    position: absolute;
+    top: 2rem;
+    right: 8.5rem;
+    color: $color-primary-dark-1;
+    font-size: 2.4rem;
+  }
+
+  &-navigation {
+    &-left {
+      width: 50vw;
+      height: 100vh;
+      background-color: $color-primary-dark-2;
+      position: fixed;
+      left: -50vw;
+      transition: left .8s cubic-bezier(1, 0, 0, 1);
+      @include flex-center;
+
+      img {
+        width: 85%;
+      }
+    }
+
+    &-right {
+      width: 50vw;
+      height: 100vh;
+      background-color: $color-primary-dark-1;
+      position: fixed;
+      right: -50vw;
+      @include flex-center;
+      transition: right .8s cubic-bezier(1, 0, 0, 1);
+
+    }
+
+    .nav-list {
+      &-link {
+        font-size: 2.3rem;
+        letter-spacing: .2rem;
+        font-weight: 300;
+        color: #cccccc;
+        display: block;
+        margin: 2rem;
+        text-align: center;
+        transition: all .5s;
+
+        &:hover {
+          color: #1b1b2f;
+          letter-spacing: .3rem;
+        }
+      }
+    }
+  }
+}
 
 
+.checkbox:checked~.navigate-navigation .navigate-navigation-left {
+  left: 0;
+}
+
+.checkbox:checked~.navigate-navigation .navigate-navigation-right {
+  right: 0;
+}
+
+.checkbox:checked~.icon-search {
+  display: none;
+}
+
+.checkbox:checked~.hamburger-menu .menu {
+  transform: rotateZ(90deg);
+}
+
+.checkbox:checked~.hamburger-menu .menu-line-1 {
+  transform: rotateZ(-40deg);
+}
+
+.checkbox:checked~.hamburger-menu .menu-line-2 {
+  opacity: 0;
+}
+
+.checkbox:checked~.hamburger-menu .menu-line-3 {
+  transform: rotateZ(40deg);
+}
+
+.checkbox:checked~.search {
+  display: none;
+}
+
+// Search
+.search {
+  @include flex-center;
+  z-index: -100;
+
+  &-btn {
+    margin: 2rem;
+  }
 
 
+  &-btn>div {
+    display: inline-block;
+    position: relative;
+  }
+
+  &-btn>div:after {
+    content: "";
+    background: $color-primary-dark-2;
+    width: .4rem;
+    height: 2rem;
+    position: absolute;
+    top: 2.1rem;
+    right: -.25rem;
+    transform: rotate(135deg);
+  }
+
+  &-btn>div>input {
+    color: #000;
+    font-size: 1.6rem;
+    background: transparent;
+    width: 3rem;
+    height: 3rem;
+    padding-left: 1.5rem;
+    text-align: left;
+    border: .3rem solid $color-primary-dark-2;
+    outline: none;
+    border-radius: 3.5rem;
+    transition: width 0.5s;
+  }
 
 
-
+  &-btn>div>input:focus,
+  &-btn>div>input:valid {
+    width: 25rem;
+  }
+}

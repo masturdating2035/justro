@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans");
 @font-face {
   font-family: shabnam;
   src: url("../fonts/Shabnam.woff") format("woff"), url("../fonts/Shabnam.woff2") format("woff2");
@@ -16,6 +17,7 @@ html {
 
 body {
   direction: rtl;
+  overflow-x: hidden;
 }
 
 a,
@@ -25,5 +27,172 @@ a:hover {
 
 li {
   list-style-type: none;
+}
+
+.navigate {
+  position: relative;
+  z-index: 200;
+  background-color: #e0e0e0;
+  display: flex;
+  justify-content: space-between;
+}
+
+.navigate .justro {
+  position: absolute;
+  top: 2rem;
+  right: 8.5rem;
+  color: #007f62;
+  font-size: 2.4rem;
+}
+
+.navigate-navigation-left {
+  width: 50vw;
+  height: 100vh;
+  background-color: #00a680;
+  position: fixed;
+  left: -50vw;
+  transition: left 0.8s cubic-bezier(1, 0, 0, 1);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.navigate-navigation-left img {
+  width: 85%;
+}
+
+.navigate-navigation-right {
+  width: 50vw;
+  height: 100vh;
+  background-color: #007f62;
+  position: fixed;
+  right: -50vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: right 0.8s cubic-bezier(1, 0, 0, 1);
+}
+
+.navigate-navigation .nav-list-link {
+  font-size: 2.3rem;
+  letter-spacing: .2rem;
+  font-weight: 300;
+  color: #cccccc;
+  display: block;
+  margin: 2rem;
+  text-align: center;
+  transition: all .5s;
+}
+
+.navigate-navigation .nav-list-link:hover {
+  color: #1b1b2f;
+  letter-spacing: .3rem;
+}
+
+.checkbox:checked ~ .navigate-navigation .navigate-navigation-left {
+  left: 0;
+}
+
+.checkbox:checked ~ .navigate-navigation .navigate-navigation-right {
+  right: 0;
+}
+
+.checkbox:checked ~ .icon-search {
+  display: none;
+}
+
+.checkbox:checked ~ .hamburger-menu .menu {
+  transform: rotateZ(90deg);
+}
+
+.checkbox:checked ~ .hamburger-menu .menu-line-1 {
+  transform: rotateZ(-40deg);
+}
+
+.checkbox:checked ~ .hamburger-menu .menu-line-2 {
+  opacity: 0;
+}
+
+.checkbox:checked ~ .hamburger-menu .menu-line-3 {
+  transform: rotateZ(40deg);
+}
+
+.checkbox:checked ~ .search {
+  display: none;
+}
+
+.search {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: -100;
+}
+
+.search-btn {
+  margin: 2rem;
+}
+
+.search-btn > div {
+  display: inline-block;
+  position: relative;
+}
+
+.search-btn > div:after {
+  content: "";
+  background: #00a680;
+  width: .4rem;
+  height: 2rem;
+  position: absolute;
+  top: 2.1rem;
+  right: -.25rem;
+  transform: rotate(135deg);
+}
+
+.search-btn > div > input {
+  color: #000;
+  font-size: 1.6rem;
+  background: transparent;
+  width: 3rem;
+  height: 3rem;
+  padding-left: 1.5rem;
+  text-align: left;
+  border: 0.3rem solid #00a680;
+  outline: none;
+  border-radius: 3.5rem;
+  transition: width 0.5s;
+}
+
+.search-btn > div > input:focus,
+.search-btn > div > input:valid {
+  width: 25rem;
+}
+
+.hamburger-menu {
+  width: 4rem;
+  height: 4rem;
+  z-index: 50;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-right: 2.5rem;
+  margin-top: 2rem;
+}
+
+.hamburger-menu .menu {
+  width: 100%;
+  height: 4.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  cursor: pointer;
+  transition: transform .5s;
+}
+
+.hamburger-menu .menu-line {
+  width: 100%;
+  height: 0.4rem;
+  background-color: #00a680;
+  transition: .5s .5s;
+  transform-origin: right;
 }
 /*# sourceMappingURL=main.css.map */

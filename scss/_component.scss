@@ -1,9 +1,30 @@
+// Hamburger Menu
+.hamburger-menu {
+    width: 4rem;
+    height: 4rem;
+    z-index: 50;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 2.5rem;
+    margin-top: 2rem;
+
+    .menu {
+        width: 100%;
+        height: 4.5rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        cursor: pointer;
+        transition: transform .5s;
 
 
-
-
-
-
-
-
-
+        &-line {
+            width: 100%;
+            height: 0.4rem;
+            background-color: $color-primary-dark-2;
+            transition: .5s .5s;
+            transform-origin: right;
+        }
+    }
+}

@@ -4,6 +4,8 @@
     url('../fonts/Shabnam.woff2') format('woff2');
 }
 
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
 * {
   padding: 0;
   margin: 0;
@@ -13,11 +15,11 @@
 
 html {
   font-size: 62.5%;
-
 }
 
 body {
   direction: rtl;
+  overflow-x: hidden;
 }
 
 a,
