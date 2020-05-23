@@ -41,6 +41,10 @@
     .navigate {
         display: none;
     }
+
+    .logo {
+      display: none;
+    }
 }
 
 // max-width: 991px
@@ -48,4 +52,61 @@
     .header {
         display: none;
     }
+}
+
+// max-width: 360px
+@media only screen and (max-width: 360px) {
+  .search {
+    
+    &-btn>div>input:focus,
+    &-btn>div>input:valid {
+      width: 15rem;
+    }
+  }
+}
+
+
+// max-width: 576px
+@media only screen and (min-width: 576px) {
+  .logo {
+    position: relative;
+ 
+    span {
+      top: 10rem;
+      right: 32%;
+  
+      >img {
+        width: 9.5rem;
+        height: 9.5rem;
+      }
+  
+      >span {
+        top: 3rem;
+        right: 10.5rem;
+        font-size: 2.4rem;
+      }
+    }
+  }
+}
+
+// max-width: 768px
+@media only screen and (min-width: 768px) {
+  .logo {
+ 
+    span {
+      top: 17rem;
+      right: 38%;
+  
+      >img {
+        width:11.5rem;
+        height: 11.5rem;
+      }
+  
+      >span {
+        top: 3.8rem;
+        right: 13rem;
+        font-size: 3rem;
+      }
+    }
+  }
 }

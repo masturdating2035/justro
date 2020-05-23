@@ -216,3 +216,67 @@
     }
   }
 }
+
+
+
+// Logo
+.logo {
+  position: relative;
+
+  >img {
+    position: relative;
+    left: 12rem;
+  }
+
+  span {
+    position: absolute;
+    top: 5rem;
+    right: 20%;
+
+    >img {
+      width: 7.2rem;
+      height: 7.2rem;
+    }
+
+    >span {
+      position: absolute;
+      top: 2rem;
+      right: 7.5rem;
+      font-size: 2.1rem;
+      color: $color-primary-dark-1;
+    }
+
+
+  }
+
+}
+
+
+// Slider
+.slider {
+  &-head {
+    h2 {
+      color: $color-primary-dark-1;
+      font-size: 3rem;
+
+      span {
+        border-bottom: .3rem solid $color-primary-dark-1;
+        padding-bottom: 0.5rem;
+      }
+    }
+  }
+
+  &-desk {
+    font-size: 1.6rem;
+    line-height: 2.4rem;
+  }
+
+  &-img {
+    background-color: red;
+
+    img {
+      width: 23.9rem;
+      height: 35rem;
+    }
+  }
+}

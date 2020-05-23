@@ -252,6 +252,58 @@ li {
   width: 22rem;
 }
 
+.logo {
+  position: relative;
+}
+
+.logo > img {
+  position: relative;
+  left: 12rem;
+}
+
+.logo span {
+  position: absolute;
+  top: 5rem;
+  right: 20%;
+}
+
+.logo span > img {
+  width: 7.2rem;
+  height: 7.2rem;
+}
+
+.logo span > span {
+  position: absolute;
+  top: 2rem;
+  right: 7.5rem;
+  font-size: 2.1rem;
+  color: #007f62;
+}
+
+.slider-head h2 {
+  color: #007f62;
+  font-size: 3rem;
+}
+
+.slider-head h2 span {
+  border-bottom: 0.3rem solid #007f62;
+  padding-bottom: 0.5rem;
+}
+
+.slider-desk {
+  font-size: 1.6rem;
+  line-height: 2.4rem;
+}
+
+.slider-img {
+  background-color: red;
+}
+
+.slider-img img {
+  width: 23.9rem;
+  height: 35rem;
+}
+
 .hamburger-menu {
   width: 4rem;
   height: 4rem;
@@ -308,11 +360,56 @@ li {
   .navigate {
     display: none;
   }
+  .logo {
+    display: none;
+  }
 }
 
 @media only screen and (max-width: 991px) {
   .header {
     display: none;
+  }
+}
+
+@media only screen and (max-width: 360px) {
+  .search-btn > div > input:focus,
+  .search-btn > div > input:valid {
+    width: 15rem;
+  }
+}
+
+@media only screen and (min-width: 576px) {
+  .logo {
+    position: relative;
+  }
+  .logo span {
+    top: 10rem;
+    right: 32%;
+  }
+  .logo span > img {
+    width: 9.5rem;
+    height: 9.5rem;
+  }
+  .logo span > span {
+    top: 3rem;
+    right: 10.5rem;
+    font-size: 2.4rem;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .logo span {
+    top: 17rem;
+    right: 38%;
+  }
+  .logo span > img {
+    width: 11.5rem;
+    height: 11.5rem;
+  }
+  .logo span > span {
+    top: 3.8rem;
+    right: 13rem;
+    font-size: 3rem;
   }
 }
 /*# sourceMappingURL=main.css.map */
