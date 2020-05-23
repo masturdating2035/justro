@@ -1,4 +1,51 @@
-// max-width: 768px
-// @media only screen and (max-width: 768px) {
+// max-width: 1200
+@media only screen and (min-width: 1200px) {
+    .header {
+        &-logo {
+          >img {
+            width: 32rem;
+            height: 16rem;
+          }  
+          >span {
+            top: 4vh;
+            right:51%;
+      
+            img {
+              width: 6.2rem;
+            }
+      
+            span {
+              font-size: 1.85rem;
+            }
+          }
+        }
+      
+        &-nav {
+          ul {  
+           li {
+              margin: 0 0 0 1.2rem;
+      
+              a {
+                font-size: 1.5rem;
+              }
+            }
+          }
+        }
+    
+      }
+}
 
-// }
+
+// min-width: 992px
+@media only screen and (min-width: 992px) {
+    .navigate {
+        display: none;
+    }
+}
+
+// max-width: 991px
+@media only screen and (max-width: 991px) {
+    .header {
+        display: none;
+    }
+}

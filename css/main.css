@@ -58,7 +58,7 @@ li {
 }
 
 .navigate-navigation-left img {
-  width: 85%;
+  width: 80%;
 }
 
 .navigate-navigation-right {
@@ -167,6 +167,91 @@ li {
   width: 25rem;
 }
 
+.header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.header-logo {
+  position: relative;
+}
+
+.header-logo > img {
+  width: 25rem;
+  height: 13rem;
+}
+
+.header-logo > span {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  justify-content: space-evenly;
+  position: absolute;
+  top: 5vh;
+  right: 50%;
+}
+
+.header-logo > span img {
+  width: 5.5rem;
+}
+
+.header-logo > span span {
+  font-size: 1.5rem;
+  margin-right: .5rem;
+  color: #007f62;
+}
+
+.header-nav {
+  height: 13.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.header-nav ul {
+  display: flex;
+}
+
+.header-nav ul li {
+  margin: 0 0 0 1rem;
+}
+
+.header-nav ul li a {
+  font-size: 1.2rem;
+  color: #333333;
+  transition: all .3s;
+  padding: 0.5rem;
+  border-radius: .5rem;
+}
+
+.header-nav ul li a:hover {
+  background-color: #333;
+  color: #ffffff;
+}
+
+.header-btn {
+  height: 12.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.header-btn-dl {
+  width: 10rem;
+  height: 3.5rem;
+  border-radius: 2.5rem;
+  box-shadow: 0 0.7rem 2rem 0 rgba(227, 84, 39, 0.3);
+  outline: none;
+  cursor: pointer;
+  color: #ffffff;
+  font-size: 1.5rem;
+  background-image: linear-gradient(to top, #e35325, #ff8a65);
+}
+
+.header-wave img {
+  width: 22rem;
+}
+
 .hamburger-menu {
   width: 4rem;
   height: 4rem;
@@ -194,5 +279,40 @@ li {
   background-color: #00a680;
   transition: .5s .5s;
   transform-origin: right;
+}
+
+@media only screen and (min-width: 1200px) {
+  .header-logo > img {
+    width: 32rem;
+    height: 16rem;
+  }
+  .header-logo > span {
+    top: 4vh;
+    right: 51%;
+  }
+  .header-logo > span img {
+    width: 6.2rem;
+  }
+  .header-logo > span span {
+    font-size: 1.85rem;
+  }
+  .header-nav ul li {
+    margin: 0 0 0 1.2rem;
+  }
+  .header-nav ul li a {
+    font-size: 1.5rem;
+  }
+}
+
+@media only screen and (min-width: 992px) {
+  .navigate {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 991px) {
+  .header {
+    display: none;
+  }
 }
 /*# sourceMappingURL=main.css.map */

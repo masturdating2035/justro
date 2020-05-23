@@ -1,3 +1,4 @@
+// Navigation-Hamburger Menu
 .navigate {
   position: relative;
   z-index: 200;
@@ -24,7 +25,7 @@
       @include flex-center;
 
       img {
-        width: 85%;
+        width: 80%;
       }
     }
 
@@ -136,5 +137,82 @@
   &-btn>div>input:focus,
   &-btn>div>input:valid {
     width: 25rem;
+  }
+}
+
+
+// Header
+.header {
+  display: flex;
+  justify-content: space-between;
+
+  &-logo {
+    position: relative;
+
+    >img {
+      width: 25rem;
+      height: 13rem;
+    }
+
+    >span {
+      @include flex-center;
+      justify-content: space-evenly;
+      position: absolute;
+      top: 5vh;
+      right: 50%;
+
+      img {
+        width: 5.5rem;
+      }
+
+      span {
+        font-size: 1.5rem;
+        margin-right: .5rem;
+        color: $color-primary-dark-1;
+      }
+    }
+  }
+
+  &-nav {
+    height: 13.5rem;
+    @include flex-center;
+
+
+    ul {
+      display: flex;
+
+      li {
+        margin: 0 0 0 1rem;
+
+        a {
+          font-size: 1.2rem;
+          color: #333333;
+          transition: all .3s;
+          padding: 0.5rem;
+          border-radius: .5rem;
+
+          &:hover {
+            background-color: #333;
+            color: #ffffff;
+          }
+        }
+      }
+    }
+  }
+
+  &-btn {
+    height: 12.5rem;
+    @include flex-center;
+
+
+    &-dl {
+      @include btn;
+    }
+  }
+
+  &-wave {
+    img {
+      width: 22rem;
+    }
   }
 }
