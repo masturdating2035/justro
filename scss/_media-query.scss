@@ -1,67 +1,73 @@
 // max-width: 1200
 @media only screen and (min-width: 1200px) {
-    .header {
-        &-logo {
-          >img {
-            width: 32rem;
-            height: 16rem;
-          }  
-          >span {
-            top: 4vh;
-            right:51%;
-      
-            img {
-              width: 6.2rem;
-            }
-      
-            span {
-              font-size: 1.85rem;
-            }
-          }
-        }
-      
-        &-nav {
-          ul {  
-           li {
-              margin: 0 0 0 1.2rem;
-      
-              a {
-                font-size: 1.5rem;
-              }
-            }
-          }
-        }
-    
+  .header {
+    &-logo {
+      >img {
+        width: 32rem;
+        height: 16rem;
       }
+
+      >span {
+        top: 4vh;
+        right: 51%;
+
+        img {
+          width: 6.2rem;
+        }
+
+        span {
+          font-size: 1.85rem;
+        }
+      }
+    }
+
+    &-nav {
+      ul {
+        li {
+          margin: 0 0 0 1.2rem;
+
+          a {
+            font-size: 1.5rem;
+          }
+        }
+      }
+    }
+
+  }
 }
 
 
 // min-width: 992px
 @media only screen and (min-width: 992px) {
-    .navigate {
-        display: none;
-    }
+  .navigate {
+    display: none;
+  }
 
-    .logo {
-      display: none;
-    }
+  .logo {
+    display: none;
+  }
+
 }
 
 // max-width: 991px
 @media only screen and (max-width: 991px) {
-    .header {
-        display: none;
-    }
+  .header {
+    display: none;
+  }
 }
 
 // max-width: 360px
 @media only screen and (max-width: 360px) {
   .search {
-    
+
     &-btn>div>input:focus,
     &-btn>div>input:valid {
       width: 15rem;
     }
+  }
+
+  .slider {
+    height: 40rem;
   }
 }
 
@@ -70,16 +76,16 @@
 @media only screen and (min-width: 576px) {
   .logo {
     position: relative;
- 
+
     span {
       top: 10rem;
       right: 32%;
-  
+
       >img {
         width: 9.5rem;
         height: 9.5rem;
       }
-  
+
       >span {
         top: 3rem;
         right: 10.5rem;
@@ -87,26 +93,34 @@
       }
     }
   }
+
+  .slider {
+    height: 45rem;
+  }
 }
 
 // max-width: 768px
 @media only screen and (min-width: 768px) {
   .logo {
- 
+
     span {
       top: 17rem;
       right: 38%;
-  
+
       >img {
-        width:11.5rem;
+        width: 11.5rem;
         height: 11.5rem;
       }
-  
+
       >span {
         top: 3.8rem;
         right: 13rem;
         font-size: 3rem;
       }
     }
+  }
+
+  .slider {
+    height: 55rem;
   }
 }

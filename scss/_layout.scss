@@ -254,6 +254,10 @@
 
 // Slider
 .slider {
+  height: 60rem;
+  background-color: red;
+  margin-top: 1rem;
+
   &-head {
     h2 {
       color: $color-primary-dark-1;
@@ -272,11 +276,7 @@
   }
 
   &-img {
-    background-color: red;
-
-    img {
-      width: 23.9rem;
-      height: 35rem;
-    }
+    overflow: hidden;
+    
   }
 }

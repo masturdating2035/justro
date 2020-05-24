@@ -280,6 +280,12 @@ li {
   color: #007f62;
 }
 
+.slider {
+  height: 60rem;
+  background-color: red;
+  margin-top: 1rem;
+}
+
 .slider-head h2 {
   color: #007f62;
   font-size: 3rem;
@@ -296,12 +302,7 @@ li {
 }
 
 .slider-img {
-  background-color: red;
-}
-
-.slider-img img {
-  width: 23.9rem;
-  height: 35rem;
+  overflow: hidden;
 }
 
 .hamburger-menu {
@@ -376,6 +377,9 @@ li {
   .search-btn > div > input:valid {
     width: 15rem;
   }
+  .slider {
+    height: 40rem;
+  }
 }
 
 @media only screen and (min-width: 576px) {
@@ -395,6 +399,9 @@ li {
     right: 10.5rem;
     font-size: 2.4rem;
   }
+  .slider {
+    height: 45rem;
+  }
 }
 
 @media only screen and (min-width: 768px) {
@@ -410,6 +417,9 @@ li {
     top: 3.8rem;
     right: 13rem;
     font-size: 3rem;
+  }
+  .slider {
+    height: 55rem;
   }
 }
 /*# sourceMappingURL=main.css.map */
