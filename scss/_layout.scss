@@ -254,29 +254,27 @@
 
 // Slider
 .slider {
-  height: 60rem;
-  background-color: red;
-  margin-top: 1rem;
-
-  &-head {
+  &-desc {
     h2 {
+      font-size: 4rem;
       color: $color-primary-dark-1;
-      font-size: 3rem;
 
       span {
-        border-bottom: .3rem solid $color-primary-dark-1;
-        padding-bottom: 0.5rem;
+        border-bottom: .2rem solid $color-primary-dark-1;
       }
     }
-  }
 
-  &-desk {
-    font-size: 1.6rem;
-    line-height: 2.4rem;
+    p {
+      font-size: 1.4rem;
+      line-height: 2.4rem;
+    }
   }
+  &-img{
+    margin-left: 2rem;
 
-  &-img {
-    overflow: hidden;
-    
+    img{
+      width: 55rem;
+      height: 35rem;
+    }
   }
 }

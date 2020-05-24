@@ -280,29 +280,27 @@ li {
   color: #007f62;
 }
 
-.slider {
-  height: 60rem;
-  background-color: red;
-  margin-top: 1rem;
-}
-
-.slider-head h2 {
+.slider-desc h2 {
+  font-size: 4rem;
   color: #007f62;
-  font-size: 3rem;
 }
 
-.slider-head h2 span {
-  border-bottom: 0.3rem solid #007f62;
-  padding-bottom: 0.5rem;
+.slider-desc h2 span {
+  border-bottom: 0.2rem solid #007f62;
 }
 
-.slider-desk {
-  font-size: 1.6rem;
+.slider-desc p {
+  font-size: 1.4rem;
   line-height: 2.4rem;
 }
 
 .slider-img {
-  overflow: hidden;
+  margin-left: 2rem;
+}
+
+.slider-img img {
+  width: 55rem;
+  height: 35rem;
 }
 
 .hamburger-menu {
@@ -377,9 +375,6 @@ li {
   .search-btn > div > input:valid {
     width: 15rem;
   }
-  .slider {
-    height: 40rem;
-  }
 }
 
 @media only screen and (min-width: 576px) {
@@ -399,9 +394,6 @@ li {
     right: 10.5rem;
     font-size: 2.4rem;
   }
-  .slider {
-    height: 45rem;
-  }
 }
 
 @media only screen and (min-width: 768px) {
@@ -418,8 +410,26 @@ li {
     right: 13rem;
     font-size: 3rem;
   }
-  .slider {
-    height: 55rem;
+  .slides-text-div {
+    position: static;
+    font-size: 15px;
+    height: 180px;
+  }
+  .carousel-inner {
+    width: 100% !important;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1050px) {
+  .carousel-inner {
+    width: 100% !important;
+  }
+  .web-navbar-ul li {
+    font-size: 1rem;
+  }
+  .Rectangle-1 {
+    width: 8rem;
+    height: 3rem;
   }
 }
 /*# sourceMappingURL=main.css.map */

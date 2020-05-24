@@ -66,9 +66,7 @@
     }
   }
 
-  .slider {
-    height: 40rem;
-  }
+
 }
 
 
@@ -94,9 +92,7 @@
     }
   }
 
-  .slider {
-    height: 45rem;
-  }
+
 }
 
 // max-width: 768px
@@ -120,7 +116,31 @@
     }
   }
 
-  .slider {
-    height: 55rem;
+  .slides-text-div {
+    position: static;
+    font-size: 15px;
+    height: 180px;
+  }
+
+  .carousel-inner {
+    width: 100% !important;
+  }
+
+}
+
+
+// max-width: 768px and 1050px
+@media only screen and (min-width:768px) and (max-width:1050px) {
+  .carousel-inner {
+    width: 100% !important;
+  }
+
+  .web-navbar-ul li {
+    font-size: 1rem;
+  }
+
+  .Rectangle-1 {
+    width: 8rem;
+    height:3rem;
   }
 }
