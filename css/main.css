@@ -299,7 +299,7 @@ li {
 }
 
 .slider-img img {
-  width: 55rem;
+  width: 53rem;
   height: 35rem;
 }
 
@@ -374,6 +374,15 @@ li {
   .search-btn > div > input:focus,
   .search-btn > div > input:valid {
     width: 15rem;
+  }
+  .slider {
+    overflow: hidden;
+  }
+  .slider-desc h2 {
+    font-size: 3rem;
+  }
+  .slider-img img {
+    width: 37rem;
   }
 }
 

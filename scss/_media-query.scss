@@ -66,6 +66,21 @@
     }
   }
 
+  .slider {
+    overflow: hidden;
+    &-desc {
+      h2 {
+        font-size: 3rem;
+      }
+    }
+    &-img{
+  
+      img{
+        width: 37rem;
+      }
+    }
+  }
+
 
 }
 
