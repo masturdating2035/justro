@@ -280,50 +280,55 @@
 }
 
 // Mobile Section
-.icons {
-  display: flex;
-  justify-content: space-between;
-  // overflow-x: scroll;
-  // overflow-y: hidden;
-  white-space: nowrap;
+.mobile {
+  &-icons {
+    display: flex;
+    justify-content: space-between;
+    // overflow-x: scroll;
+    // overflow-y: hidden;
+    white-space: nowrap;
 
 
-  span {
-    height: 5rem;
-    color: $color-primary-dark-2;
-    padding: 1rem;
-    border: .1rem solid $color-primary-light;
-    border-radius: 50%;
-    font-size: 3rem;
-    cursor: pointer;
-    transition: all .3s;
+    span {
+      height: 5rem;
+      color: $color-primary-dark-2;
+      padding: 1rem;
+      border: .1rem solid $color-primary-light;
+      border-radius: 50%;
+      font-size: 3rem;
+      cursor: pointer;
+      transition: all .3s;
 
 
-    &:hover {
-      color: white;
-      background-color: $color-secondary-dark;
-      border: .1rem solid $color-secondary-dark;
+      &:hover {
+        color: white;
+        background-color: $color-secondary-dark;
+        border: .1rem solid $color-secondary-dark;
+      }
     }
   }
-}
 
-.mobile {
-  img {
-    width: 30rem;
-    margin: 2rem 0 0 0;
-  }
-}
+  &-phone {
+    display: flex;
+    justify-content: center;
 
-.search-hotel {
-  h2 {
-    color: $color-primary-dark-1;
-    font-size: 2.4rem;
-    text-align: center;
+    img {
+      width: 30rem;
+      margin: 2rem 0 0 0;
+    }
   }
 
-  p {
-    text-align: justify;
-    font-size: 1.6rem;
-    line-height: 2.4rem;
+  &-search-hotel {
+    h2 {
+      color: $color-primary-dark-1;
+      font-size: 2.4rem;
+      text-align: center;
+    }
+
+    p {
+      text-align: justify;
+      font-size: 1.6rem;
+      line-height: 2.4rem;
+    }
   }
 }

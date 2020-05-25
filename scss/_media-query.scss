@@ -34,6 +34,8 @@
     }
 
   }
+
+
 }
 
 
@@ -47,6 +49,40 @@
     display: none;
   }
 
+  .mobile {
+    position: relative;
+
+    &-icons {
+      height: 68rem;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-direction: column;
+      position: absolute;
+      right: 50%;
+      top: 0;
+      border-right: .2rem solid $color-primary-light;
+
+      span {
+        margin: 1.5rem 0;
+        position: relative;
+        left: 51%;
+      }
+    }
+
+    &-phone {
+      position: absolute;
+      left: 49%;
+    }
+
+    &-search-hotel {
+      width: 32rem;
+      position: absolute;
+      right: 40%;
+      top: 25rem;
+    }
+  }
+
 }
 
 // max-width: 991px
@@ -54,6 +90,7 @@
   .header {
     display: none;
   }
+
 }
 
 // max-width: 360px
@@ -109,16 +146,18 @@
     }
   }
 
-  .icons {
-    span {
-      height: 6rem;
-      padding: 1.5rem;
-    }
-  }
-
   .mobile {
-    img {
-      width: 35rem;
+    &-icons {
+      span {
+        height: 6rem;
+        padding: 1.5rem;
+      }
+    }
+
+    &-phone {
+      img {
+        width: 35rem;
+      }
     }
   }
 
@@ -159,7 +198,7 @@
     h2 {
       font-size: 3rem;
     }
-  
+
     p {
       font-size: 2rem;
     }
