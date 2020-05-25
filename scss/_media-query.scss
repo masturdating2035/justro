@@ -68,14 +68,16 @@
 
   .slider {
     overflow: hidden;
+
     &-desc {
       h2 {
         font-size: 3rem;
       }
     }
-    &-img{
-  
-      img{
+
+    &-img {
+
+      img {
         width: 37rem;
       }
     }
@@ -107,6 +109,18 @@
     }
   }
 
+  .icons {
+    span {
+      height: 6rem;
+      padding: 1.5rem;
+    }
+  }
+
+  .mobile {
+    img {
+      width: 35rem;
+    }
+  }
 
 }
 
@@ -141,6 +155,16 @@
     width: 100% !important;
   }
 
+  .search-hotel {
+    h2 {
+      font-size: 3rem;
+    }
+  
+    p {
+      font-size: 2rem;
+    }
+  }
+
 }
 
 
@@ -156,6 +180,6 @@
 
   .Rectangle-1 {
     width: 8rem;
-    height:3rem;
+    height: 3rem;
   }
 }
