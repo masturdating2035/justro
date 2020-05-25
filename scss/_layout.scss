@@ -246,13 +246,12 @@
       color: $color-primary-dark-1;
     }
 
-
   }
 
 }
 
 
-// Slider
+// Slider Section
 .slider {
   &-desc {
     h2 {
@@ -269,12 +268,41 @@
       line-height: 2.4rem;
     }
   }
-  &-img{
+
+  &-img {
     margin-left: 2rem;
 
-    img{
-      width: 53rem;
+    img {
+      width: 50rem;
       height: 35rem;
+    }
+  }
+}
+
+// Mobile Section
+.icons {
+  display: flex;
+  justify-content: space-between;
+  // overflow-x: scroll;
+  // overflow-y: hidden;
+  white-space: nowrap;
+
+
+  span {
+    height: 5rem;
+    @include flex-center;
+    color: $color-primary-dark-2;
+    padding: 1rem;
+    border: .1rem solid $color-primary-light;
+    border-radius: 50%;
+    font-size: 3rem;
+    cursor: pointer;
+    transition: all .3s;
+
+    &:hover{
+      color: white;
+      background-color: $color-secondary-dark;
+      border: .1rem solid $color-secondary-dark;
     }
   }
 }
