@@ -1,7 +1,7 @@
 // Navigation-Hamburger Menu
 .navigate {
   position: relative;
-  z-index: 200;
+  z-index: 2000;
   background-color: #e0e0e0;
   display: flex;
   justify-content: space-between;
@@ -298,6 +298,7 @@
       font-size: 3rem;
       cursor: pointer;
       transition: all .3s;
+      z-index: 1000;
 
 
       &:hover {
@@ -331,4 +332,99 @@
       line-height: 2.4rem;
     }
   }
+}
+
+
+// Download app Section
+.download {
+  box-shadow: .25rem .43rem 2.5rem 0 #e5e5e5;
+  margin-top: 80rem;
+  border-radius: 1rem;
+  // background-color: transparent;
+
+  h2 {
+    font-size: 2.4rem;
+    color: $color-primary-dark-1;
+    padding: .5rem 0;
+    text-align: center;
+  }
+
+  &-num {
+    &-desc {
+      text-align: center;
+      padding: .5rem 0;
+      font-size: 1.6rem;
+      line-height: 2.4rem;
+    }
+  }
+
+  &-box {
+    @include flex-center;
+    justify-content: space-around;
+
+    img {
+      width: 10.1rem;
+      // margin-left: 30rem;
+    }
+
+    &-input {
+      position: relative;
+      // margin-left: 5rem;
+
+      input {
+        width: 35rem;
+        height: 4rem;
+        border-radius: 2.5rem;
+        border: .1rem solid #eeeeee;
+        background-color: #fafafa;
+        outline: 0;
+        font-size: 1.5rem;
+        padding-left: 15rem;
+      }
+
+      button {
+        width: 14rem;
+        height: 4rem;
+        position: absolute;
+        left: 0;
+      }
+    }
+  }
+
+  &-app {
+    ul {
+      @include flex-center;
+      justify-content: space-around;
+
+      li {
+        @include flex-center;
+        width: 14rem;
+        height: 4rem;
+        border-radius: 2.5rem;
+        box-shadow: 0 .6rem 1.5rem 0 rgba(0, 127, 98, 0.25);
+        background-image: linear-gradient(to top, $color-primary-dark-2, $color-primary-light);
+        font-size: 1.3rem;
+        line-height: 2rem;
+        color: #ffffff;
+        cursor: pointer;
+
+        &:hover{
+          background-image: linear-gradient(to top, lighten($color-primary-dark-2,10%), darken($color-primary-light,10%));
+        }
+
+        span {
+          margin-left: 0.8rem;
+        }
+
+          
+      }
+    }
+
+    &-bazar{
+      img{
+        margin-left: 0.8rem;
+      }
+    }
+  }
+
 }
