@@ -433,7 +433,86 @@ li {
 }
 
 .download-app-bazar img {
+  width: 2rem;
   margin-left: 0.8rem;
+}
+
+.download-2 h2 {
+  text-align: center;
+  font-size: 2rem;
+  color: #007f62;
+}
+
+.download-2-box {
+  text-align: center;
+  margin: 3rem 0 4rem 0;
+}
+
+.download-2-box img {
+  width: 12rem;
+}
+
+.download-2-num-desc p {
+  font-size: 1.3rem;
+  text-align: center;
+}
+
+.download-2-input input {
+  width: 25rem;
+  height: 4rem;
+  border-radius: 2.5rem;
+  font-size: 1.5rem;
+  padding-left: 1.5rem;
+  border: .1rem solid #eeeeee;
+  background-color: #fafafa;
+  outline: 0;
+  box-shadow: .25rem .43rem 1.5rem 0 #ccc;
+}
+
+.download-2-input button {
+  width: 14rem;
+  height: 4rem;
+  font-size: 1.8rem;
+}
+
+.download-2-app {
+  text-align: center;
+}
+
+.download-2-app ul {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.download-2-app ul li {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 14rem;
+  height: 4rem;
+  border-radius: 2.5rem;
+  box-shadow: 0 0.6rem 1.5rem 0 rgba(0, 127, 98, 0.25);
+  background-image: linear-gradient(to top, #00a680, #00f4bd);
+  font-size: 1.3rem;
+  line-height: 2rem;
+  color: #ffffff;
+  cursor: pointer;
+  margin: 1rem 0;
+}
+
+.download-2-app ul li:hover {
+  background-image: linear-gradient(to top, #00d9a7, #00c195);
+}
+
+.download-2-app ul li span {
+  margin-left: 0.6rem;
+}
+
+.download-2-app-bazar img {
+  width: 2rem;
+  margin-left: 1rem;
 }
 
 .hamburger-menu {
@@ -518,6 +597,15 @@ li {
   }
   .header-nav ul li a {
     font-size: 1.5rem;
+  }
+}
+
+@media only screen and (max-width: 1200px) {
+  .download-num-desc {
+    font-size: 1.3rem;
+  }
+  .download-app ul li {
+    width: 11.5rem;
   }
 }
 
@@ -607,6 +695,18 @@ li {
   }
 }
 
+@media only screen and (min-width: 577px) {
+  .download-2 {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 576px) {
+  .download {
+    display: none;
+  }
+}
+
 @media only screen and (min-width: 768px) {
   .logo span {
     top: 17rem;
@@ -634,6 +734,22 @@ li {
   }
   .search-hotel p {
     font-size: 2rem;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .download {
+    margin-top: 5rem;
+  }
+  .download h2 {
+    font-size: 2.2rem;
+  }
+  .download-box-input input {
+    width: 32rem;
+    padding-left: 13rem;
+  }
+  .download-box-input button {
+    width: 12rem;
   }
 }
 

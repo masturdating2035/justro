@@ -1,4 +1,4 @@
-// max-width: 1200
+// min-width: 1200
 @media only screen and (min-width: 1200px) {
   .header {
     &-logo {
@@ -33,6 +33,25 @@
       }
     }
 
+  }
+}
+
+// max-width: 1200
+@media only screen and(max-width: 1200px) {
+  .download {
+    &-num {
+      &-desc {
+        font-size: 1.3rem;
+      }
+    }
+
+    &-app {
+      ul {
+        li {
+          width: 11.5rem;
+        }
+      }
+    }
   }
 }
 
@@ -121,7 +140,7 @@
 }
 
 
-// max-width: 576px
+// min-width: 576px
 @media only screen and (min-width: 576px) {
   .logo {
     position: relative;
@@ -157,10 +176,25 @@
       }
     }
   }
-
 }
 
-// max-width: 768px
+
+// min-width: 577px
+@media only screen and(min-width: 577px){
+  .download-2{
+    display: none;
+  }
+}
+
+
+// max-width: 576px
+@media only screen and (max-width: 576px) {
+  .download {
+    display: none;
+  }
+}
+
+// min-width: 768px
 @media only screen and (min-width: 768px) {
   .logo {
 
@@ -201,6 +235,31 @@
     }
   }
 
+}
+
+// max-width: 768px
+@media only screen and (max-width: 768px) {
+  .download {
+    margin-top: 5rem;
+
+    h2 {
+      font-size: 2.2rem;
+    }
+
+    &-box {
+
+      &-input {
+        input {
+          width: 32rem;
+          padding-left: 13rem;
+        }
+
+        button {
+          width: 12rem;
+        }
+      }
+    }
+  }
 }
 
 
