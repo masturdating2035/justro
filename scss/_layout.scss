@@ -517,3 +517,90 @@
     }
   }
 }
+
+
+// Ready Trip xs-sm-md Section
+.ready-trip {
+  margin-top: 7rem;
+
+  &-bg {
+    width: 100%;
+    height: 100%;
+    background-image: url('../img/023_amadegisafar.jpg');
+  }
+
+  &-head {
+    h2 {
+      font-size: 3rem;
+      color: $color-primary-dark-1;
+      padding: 2rem 0;
+    }
+  }
+
+  &-desc {
+    font-size: 1.5rem;
+    text-align: justify;
+    padding: 0 2rem;
+  }
+
+  &-btn {
+    @include flex-center;
+
+    button {
+      width: 14rem;
+      height: 4rem;
+      display: flex;
+      justify-content: space-evenly;
+      align-items: center;
+
+      span {
+        font-size: 1.8rem;
+      }
+    }
+  }
+}
+
+
+// Ready Trip lg-xl Section
+.ready-trip-2 {
+  &-bg {
+    background-image: url('../img/022_bg_amadegisafar.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 7rem;
+  }
+
+  &-head {
+    h2 {
+      font-size: 3rem;
+      color: $color-primary-dark-1;
+      padding-top: 6rem;
+      color: #ffffff;
+    }
+  }
+
+  &-desc {
+    font-size: 1.5rem;
+    text-align: center;
+    padding: 4rem 15rem;
+    color: #ffffff;
+  }
+
+  &-btn {
+    @include flex-center;
+
+    button {
+      width: 15rem;
+      height: 4rem;
+      @include flex-center;
+      justify-content: space-evenly;
+      font-family: shabnam;
+      font-weight: 300;
+      transform: translateY(1.5rem);
+
+      span {
+        font-size: 1.8rem;
+      }
+    }
+  }
+}

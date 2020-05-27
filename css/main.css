@@ -515,6 +515,86 @@ li {
   margin-left: 1rem;
 }
 
+.ready-trip {
+  margin-top: 7rem;
+}
+
+.ready-trip-bg {
+  width: 100%;
+  height: 100%;
+  background-image: url("../img/023_amadegisafar.jpg");
+}
+
+.ready-trip-head h2 {
+  font-size: 3rem;
+  color: #007f62;
+  padding: 2rem 0;
+}
+
+.ready-trip-desc {
+  font-size: 1.5rem;
+  text-align: justify;
+  padding: 0 2rem;
+}
+
+.ready-trip-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.ready-trip-btn button {
+  width: 14rem;
+  height: 4rem;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.ready-trip-btn button span {
+  font-size: 1.8rem;
+}
+
+.ready-trip-2-bg {
+  background-image: url("../img/022_bg_amadegisafar.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-top: 7rem;
+}
+
+.ready-trip-2-head h2 {
+  font-size: 3rem;
+  color: #007f62;
+  padding-top: 6rem;
+  color: #ffffff;
+}
+
+.ready-trip-2-desc {
+  font-size: 1.5rem;
+  text-align: center;
+  padding: 4rem 15rem;
+  color: #ffffff;
+}
+
+.ready-trip-2-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.ready-trip-2-btn button {
+  width: 15rem;
+  height: 4rem;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  transform: translateY(1.5rem);
+}
+
+.ready-trip-2-btn button span {
+  font-size: 1.8rem;
+}
+
 .hamburger-menu {
   width: 4rem;
   height: 4rem;
@@ -644,6 +724,12 @@ li {
     position: absolute;
     right: 40%;
     top: 25rem;
+  }
+}
+
+@media only screen and (max-width: 992px) {
+  .ready-trip-2-btn button {
+    transform: translateY(0.8rem);
   }
 }
 

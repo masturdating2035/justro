@@ -102,6 +102,17 @@
 
 }
 
+// max-width: 992px
+@media only screen and (max-width: 992px){
+  .ready-trip-2 {  
+    &-btn {
+      button {     
+        transform: translateY(.8rem);
+      }
+    }
+  }
+}
+
 // max-width: 991px
 @media only screen and (max-width: 991px) {
   .header {
