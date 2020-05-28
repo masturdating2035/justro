@@ -34,6 +34,19 @@
     }
 
   }
+
+  .trip-idea {
+   
+    &-slides {
+      overflow-x: hidden;
+  
+      img {
+        width: 19.15%;
+        height: 13vw; 
+      }
+  
+    }
+  }
 }
 
 // max-width: 1200
@@ -100,13 +113,27 @@
     }
   }
 
+  .trip-idea {
+    &-head {
+      h3 {
+        font-size: 3rem;
+      }
+    }
+
+    &-desc {
+      p {
+        font-size: 1.8rem;
+      }
+    }
+  }
+
 }
 
 // max-width: 992px
-@media only screen and (max-width: 992px){
-  .ready-trip-2 {  
+@media only screen and (max-width: 992px) {
+  .ready-trip-2 {
     &-btn {
-      button {     
+      button {
         transform: translateY(.8rem);
       }
     }
@@ -191,8 +218,8 @@
 
 
 // min-width: 577px
-@media only screen and(min-width: 577px){
-  .download-2{
+@media only screen and(min-width: 577px) {
+  .download-2 {
     display: none;
   }
 }
@@ -246,6 +273,19 @@
     }
   }
 
+  .trip-idea {
+    &-head {
+      h3 {
+        font-size: 2.8rem;
+      }
+    }
+
+    &-desc {
+      p {
+        font-size: 1.6rem;
+      }
+    }
+  }
 }
 
 // max-width: 768px

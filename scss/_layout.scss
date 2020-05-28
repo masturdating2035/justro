@@ -604,3 +604,51 @@
     }
   }
 }
+
+
+// Trip Idea Section
+.trip-idea {
+  margin-top: 3rem;
+
+  &-head {
+    margin: auto;
+    text-align: center;
+
+    h3 {
+      font-size: 2.4rem;
+      color: $color-primary-dark-1;
+    }
+  }
+
+  &-desc {
+    margin: auto;
+    text-align: justify;
+
+    p {
+      font-size: 1.4rem;
+      line-height: 2.4rem;
+    }
+  }
+
+  &-slides {
+    @include flex-center;
+    justify-content: space-between;
+    white-space: nowrap;
+    overflow-x: scroll;
+
+    img {
+      width: 40%;
+      height: 25vw;
+      border-radius: 1rem;
+      margin: 1rem .5rem;
+      cursor: pointer;
+
+
+      &:hover {
+        opacity: 0.8;
+      }
+
+    }
+
+  }
+}

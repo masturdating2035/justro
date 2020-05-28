@@ -11,312 +11,368 @@
 </head>
 
 <body>
-    <div class="container-fluid">
-        <!-- Start navbar section -->
-        <div class="row">
-            <div class="col-12 px-0">
-                <nav class="navigate ">
-                    <span class="justro">جاسترو</span>
-                    <input type="checkbox" class="checkbox" id="check" hidden>
-                    <div class="hamburger-menu">
-                        <label for="check" class="menu">
-                            <div class="menu-line menu-line-1"></div>
-                            <div class="menu-line menu-line-2"></div>
-                            <div class="menu-line menu-line-3"></div>
-                        </label>
-                    </div>
-                    <div class="navigate-navigation">
-                        <div class="navigate-navigation-right">
-                            <ul class="nav-list">
-                                <li class="nav-list-item">
-                                    <a href="#" class="nav-list-link">صفحه اصلی</a>
-                                </li>
-                                <li class="nav-list-item">
-                                    <a href="#" class="nav-list-link">ایده ها</a>
-                                </li>
-                                <li class="nav-list-item">
-                                    <a href="#" class="nav-list-link">ویژگی ها</a>
-                                </li>
-                                <li class="nav-list-item">
-                                    <a href="#" class="nav-list-link">درباره ما</a>
-                                </li>
-                                <li class="nav-list-item">
-                                    <a href="#" class="nav-list-link">همکاری با ما</a>
-                                </li>
-                                <li class="nav-list-item">
-                                    <a href="#" class="nav-list-link">تماس با ما</a>
-                                </li>
+    <!-- Start loading section -->
+    <div class="main">
+        <div class="loading">
+            <div class="dot dot-1"></div>
+            <div class="dot dot-2"></div>
+            <div class="dot dot-3"></div>
+        </div>
 
-                            </ul>
-                        </div>
+        <svg xmlns="http://www.w3.org/2000/svg" version="1.1">
+            <defs>
+                <filter id="goo">
+                    <feGaussianBlur in="SourcrGraphic" stdDeviation="10" result="blue" />
 
-                        <div class="navigate-navigation-left">
-                            <img src="./img/left.png">
-                        </div>
-                    </div>
-                    <div class="search">
-                        <div class="search-btn">
-                            <div>
-                                <input type="text" required>
+                    <feColorMatrix in="blur" mode="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 41 -7"
+                        </filter> </defs> </svg> </div> <!-- End loading section -->
+
+                        <div class="container-fluid">
+                            <!-- Start navbar section -->
+                            <div class="row">
+                                <div class="col-12 px-0">
+                                    <nav class="navigate ">
+                                        <span class="justro">جاسترو</span>
+                                        <input type="checkbox" class="checkbox" id="check" hidden>
+                                        <div class="hamburger-menu">
+                                            <label for="check" class="menu">
+                                                <div class="menu-line menu-line-1"></div>
+                                                <div class="menu-line menu-line-2"></div>
+                                                <div class="menu-line menu-line-3"></div>
+                                            </label>
+                                        </div>
+                                        <div class="navigate-navigation">
+                                            <div class="navigate-navigation-right">
+                                                <ul class="nav-list">
+                                                    <li class="nav-list-item">
+                                                        <a href="#" class="nav-list-link">صفحه اصلی</a>
+                                                    </li>
+                                                    <li class="nav-list-item">
+                                                        <a href="#" class="nav-list-link">ایده ها</a>
+                                                    </li>
+                                                    <li class="nav-list-item">
+                                                        <a href="#" class="nav-list-link">ویژگی ها</a>
+                                                    </li>
+                                                    <li class="nav-list-item">
+                                                        <a href="#" class="nav-list-link">درباره ما</a>
+                                                    </li>
+                                                    <li class="nav-list-item">
+                                                        <a href="#" class="nav-list-link">همکاری با ما</a>
+                                                    </li>
+                                                    <li class="nav-list-item">
+                                                        <a href="#" class="nav-list-link">تماس با ما</a>
+                                                    </li>
+
+                                                </ul>
+                                            </div>
+
+                                            <div class="navigate-navigation-left">
+                                                <img src="./img/left.png">
+                                            </div>
+                                        </div>
+                                        <div class="search">
+                                            <div class="search-btn">
+                                                <div>
+                                                    <input type="text" required>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </nav>
+
+                                    <div class="header">
+                                        <div class="header-logo col-3 px-0">
+                                            <img src="./img/009_logo_Bg.svg">
+                                            <span>
+                                                <img src="./img/camel.jpg">
+                                                <span>جاسترو</span>
+                                            </span>
+                                        </div>
+
+                                        <nav class="header-nav col-5 px-0">
+                                            <ul>
+                                                <li><a href="#">صفحه اصلی</a></li>
+                                                <li><a href="#">ایده ها</a></li>
+                                                <li><a href="#">ویژگی ها</a></li>
+                                                <li><a href="#">درباره ما</a></li>
+                                                <li><a href="#">همکاری با ما</a></li>
+                                                <li><a href="#">تماس با ما</a></li>
+                                            </ul>
+                                        </nav>
+
+                                        <div class="header-btn col-1 px-0">
+                                            <button class="header-btn-dl">دانلود</button>
+                                        </div>
+
+                                        <div class="header-wave">
+                                            <img src="./img/010_header_wave.png">
+                                        </div>
+                                    </div>
+
+                                </div>
                             </div>
+                            <!-- End navbar section -->
+
+                            <!-- Start logo section -->
+                            <div class="row">
+                                <div class="col-12 logo">
+                                    <img src="./img/009_logo_Bg.svg">
+                                    <span>
+                                        <img src="./img/camel.jpg">
+                                        <span>جاسترو</span>
+                                    </span>
+                                </div>
+                            </div>
+                            <!-- End logo section -->
+
+
+                            <!-- Start slider section -->
+                            <div class="row">
+                                <div class="container d-lg-flex d-md-block justify-content-md-around px-0 slider">
+                                    <div class="col-lg-5 col-md-8  mt-3 px-5 slider-desc">
+                                        <h2 class="mb-4"><span> بهتر </span>سفر کنید</h2>
+                                        <p>لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از
+                                            طراحان گرافیک است.
+                                            چاپگرها
+                                            و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است و برای شرایط فعلی
+                                            تکنولوژی مورد نیاز
+                                            و
+                                            کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد. </p>
+                                    </div>
+
+                                    <div class="col-lg-5 col-md-10 col-sm-10  mx-0 px-0 slider-img">
+                                        <img src="./img/slide2-bg.png" class="col-md-12 offset-lg-0  offset-md-2 px-0">
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- End slider section -->
+
+
+                            <!-- Start wave section -->
+                            <section id="box-wave">
+                                <div class="wave wave-1"></div>
+                                <div class="wave wave-2"></div>
+                            </section>
+                            <!-- End wave section -->
+
+
+                            <!-- Start mobile section -->
+                            <div class="row mobile">
+                                <div class="col-12 col-lg-1 px-0 mobile-icons ">
+                                    <span class="icon-didani"></span>
+                                    <span class="icon-restaurant"></span>
+                                    <span class="icon-hotel"></span>
+                                    <span class="icon-fly"></span>
+                                    <span class="icon-nearme"></span>
+                                </div>
+
+                                <div class="col-12 col-sm-8 offset-sm-2 col-md-6 offset-md-3  mobile-phone ">
+                                    <img src="./img/mobile.svg">
+                                </div>
+
+                                <div
+                                    class="col-10 offset-1 col-sm-8 offset-sm-2 col-md-6 offset-md-3 mobile-search-hotel ">
+                                    <h2>هتل‌ها، جستجو و رزرو کنید</h2>
+                                    <p>لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان
+                                        گرافیک است. چاپگرها
+                                        و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است و برای شرایط فعلی
+                                        تکنولوژی. </p>
+                                </div>
+                            </div>
+                            <!-- End mobile section -->
+
+
+                            <!-- Start download-1 section -->
+                            <div class="row">
+                                <div class="col-xl-8 offset-xl-2 col-lg-10 offset-lg-1 download">
+                                    <div class="row ">
+                                        <div class="col-4 offset-4 ">
+                                            <h2>دانلود اپلیکیشن جاسترو</h2>
+                                        </div>
+                                    </div>
+
+                                    <div class="row">
+                                        <div class="col-xl-8 offset-xl-2 download-num-desc">
+                                            <p>شما می‌تونید با وارد کردن شماره همراه خود در کارد پایین، لینک دانلود
+                                                اپلیکیشن رو دریافت کنید
+                                            </p>
+                                        </div>
+                                    </div>
+
+                                    <div class="row">
+                                        <div class="col-xl-12 px-0 download-box">
+                                            <img src="./img/021_dlbox_icon_download.svg">
+                                            <div class="download-box-input">
+                                                <input type="text" placeholder="09" dir="ltr">
+                                                <button class="header-btn-dl">دانلود</button>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="row">
+                                        <div class="col-xl-12 download-num-desc">
+                                            <p>یا از یکی از روشهای زیر اپلیکیشن جاسترو رو دانلود کنید</p>
+                                        </div>
+                                    </div>
+
+                                    <div class="row">
+                                        <div class="col-xl-6 offset-xl-3 col-md-6 offset-md-3 pt-3 download-app">
+                                            <ul>
+                                                <li><span class="icon-interface"></span>دانلود مستقیم</li>
+                                                <li><span class="icon-social-media"></span>Google Play</li>
+                                                <li class="download-app-bazar">
+                                                    <img src="./img/bazar.png">
+                                                    کافه بازار
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- End download-1 section -->
+
+                            <!-- Start download-2 section -->
+                            <div class="row">
+                                <div class="col-12 download-2 my-5">
+                                    <div class="row">
+                                        <div class="col-12 download-2-box">
+                                            <img src="./img/021_dlbox_icon_download.svg">
+
+                                        </div>
+                                    </div>
+
+
+                                    <div class="row ">
+                                        <div class="col-8 offset-2 text-center">
+                                            <h2>دانلود اپلیکیشن جاسترو</h2>
+                                        </div>
+                                    </div>
+
+                                    <div class="row">
+                                        <div class="col-12 download-2-num-desc mt-3">
+                                            <p>شما می‌تونید با وارد کردن شماره همراه خود در کارد پایین، لینک دانلود
+                                                اپلیکیشن رو دریافت کنید
+                                            </p>
+                                        </div>
+                                    </div>
+
+                                    <div class="row">
+                                        <div class="col-12 my-3">
+                                            <div
+                                                class="download-2-input d-flex flex-column justify-content-center align-items-center ">
+                                                <input type="text" placeholder="09" dir="ltr" class="mb-5">
+                                                <button class="header-btn-dl">دانلود</button>
+                                            </div>
+                                        </div>
+                                    </div>
+
+
+                                    <div class="row">
+                                        <div class="col-12 download-2-num-desc my-5">
+                                            <p>یا از یکی از روشهای زیر اپلیکیشن جاسترو رو دانلود کنید</p>
+                                        </div>
+                                    </div>
+
+                                    <div class="row">
+                                        <div class="col-12  download-2-app">
+                                            <ul>
+                                                <li><span class="icon-interface"></span>دانلود مستقیم</li>
+                                                <li><span class="icon-social-media"></span>Google Play</li>
+                                                <li class="download-2-app-bazar">
+                                                    <img src="./img/bazar.png">
+                                                    کافه بازار
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- End download-2 section -->
+
+                            <!-- Start ready trip xs-sm-md section -->
+                            <div class="row d-lg-none">
+                                <div class="col-12 px-0 mx-auto text-center ready-trip">
+                                    <div class="ready-trip-bg">
+                                        <div class="ready-trip-head">
+                                            <h2>آمادگی سفر</h2>
+                                        </div>
+                                        <div class="ready-trip-desc">
+                                            <p>لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از
+                                                طراحان گرافیک است.
+                                                چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است و
+                                                برای شرایط فعلی
+                                                تکنولوژی.
+                                            </p>
+                                        </div>
+                                        <div class=" ready-trip-btn mt-5">
+                                            <button class="header-btn-dl"><span>&#8592;</span> آماده سفر شو</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- End ready trip xs-sm-md section -->
+
+
+                            <!-- Start ready trip lg-xl section -->
+                            <div class="row d-none d-lg-flex">
+                                <div class="col-12 px-0 mx-auto text-center ready-trip-2 ">
+                                    <div class="ready-trip-2-bg">
+                                        <div class="ready-trip-2-head">
+                                            <h2>آمادگی سفر</h2>
+                                        </div>
+                                        <div class="ready-trip-2-desc">
+                                            <p>لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از
+                                                طراحان گرافیک است.
+                                                چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است و
+                                                برای شرایط فعلی
+                                                تکنولوژی مورد نیاز و کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می
+                                                باشد.
+                                                کتابهای زیادی در شصت و سه درصد گذشته، حال و آینده شناخت فراوان جامعه و
+                                                متخصصان را می طلبد تا
+                                                با نرم افزارها شناخت بیشتری را برای طراحان رایانه ای علی الخصوص طراحان
+                                                خلاقی و فرهنگ پیشرو
+                                                در زبان فارسی ایجاد کرد.
+                                            </p>
+                                        </div>
+                                        <div class=" ready-trip-2-btn mt-5">
+                                            <button class="header-btn-dl"><span>&#8592;</span> آماده سفر شو</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- End ready trip lg-xl section -->
+
+
+                            <!-- Start trip idea section -->
+                            <div class="row trip-idea">
+                                <div class="col-6 my-5 px-0 trip-idea-head">
+                                    <h3>ایده های سفر</h3>
+                                </div>
+
+                                <div class="col-10 col-sm-8 px-0 trip-idea-desc">
+                                    <p>لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان
+                                        گرافیک است. چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است و
+                                        برای شرایط فعلی تکنولوژی. </p>
+                                </div>
+
+                                <div class="col-12 px-0 trip-idea-slides">
+                                    <div>
+                                        <img src="./img/estakhr.png">
+                                        <img src="./img/koh.png">
+                                        <img src="./img/tarikhi.png">
+                                        <img src="./img/maldive.png">
+                                        <img src="./img/emarat.png">
+                                    </div>
+                                </div>
+
+                            </div>
+                            <!-- End trip idea section -->
                         </div>
-                    </div>
-                </nav>
-
-                <div class="header">
-                    <div class="header-logo col-3 px-0">
-                        <img src="./img/009_logo_Bg.svg">
-                        <span>
-                            <img src="./img/camel.jpg">
-                            <span>جاسترو</span>
-                        </span>
-                    </div>
-
-                    <nav class="header-nav col-5 px-0">
-                        <ul>
-                            <li><a href="#">صفحه اصلی</a></li>
-                            <li><a href="#">ایده ها</a></li>
-                            <li><a href="#">ویژگی ها</a></li>
-                            <li><a href="#">درباره ما</a></li>
-                            <li><a href="#">همکاری با ما</a></li>
-                            <li><a href="#">تماس با ما</a></li>
-                        </ul>
-                    </nav>
-
-                    <div class="header-btn col-1 px-0">
-                        <button class="header-btn-dl">دانلود</button>
-                    </div>
-
-                    <div class="header-wave">
-                        <img src="./img/010_header_wave.png">
-                    </div>
-                </div>
-
-            </div>
-        </div>
-        <!-- End navbar section -->
-
-        <!-- Start logo section -->
-        <div class="row">
-            <div class="col-12 logo">
-                <img src="./img/009_logo_Bg.svg">
-                <span>
-                    <img src="./img/camel.jpg">
-                    <span>جاسترو</span>
-                </span>
-            </div>
-        </div>
-        <!-- End logo section -->
 
 
-        <!-- Start slider section -->
-        <div class="row">
-            <div class="container d-lg-flex d-md-block justify-content-md-around px-0 slider">
-                <div class="col-lg-5 col-md-8  mt-3 px-5 slider-desc">
-                    <h2 class="mb-4"><span> بهتر </span>سفر کنید</h2>
-                    <p>لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است.
-                        چاپگرها
-                        و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است و برای شرایط فعلی تکنولوژی مورد نیاز
-                        و
-                        کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد. </p>
-                </div>
-
-                <div class="col-lg-5 col-md-10 col-sm-10  mx-0 px-0 slider-img">
-                    <img src="./img/slide2-bg.png" class="col-md-12 offset-lg-0  offset-md-2 px-0">
-                </div>
-            </div>
-        </div>
-        <!-- End slider section -->
-
-
-        <!-- Start wave section -->
-        <section id="box-wave">
-            <div class="wave wave-1"></div>
-            <div class="wave wave-2"></div>
-        </section>
-        <!-- End wave section -->
-
-
-        <!-- Start mobile section -->
-        <div class="row mobile">
-            <div class="col-12 col-lg-1 px-0 mobile-icons ">
-                <span class="icon-didani"></span>
-                <span class="icon-restaurant"></span>
-                <span class="icon-hotel"></span>
-                <span class="icon-fly"></span>
-                <span class="icon-nearme"></span>
-            </div>
-
-            <div class="col-12 col-sm-8 offset-sm-2 col-md-6 offset-md-3  mobile-phone ">
-                <img src="./img/mobile.svg">
-            </div>
-
-            <div class="col-10 offset-1 col-sm-8 offset-sm-2 col-md-6 offset-md-3 mobile-search-hotel ">
-                <h2>هتل‌ها، جستجو و رزرو کنید</h2>
-                <p>لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است. چاپگرها
-                    و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است و برای شرایط فعلی تکنولوژی. </p>
-            </div>
-        </div>
-        <!-- End mobile section -->
-
-
-        <!-- Start download-1 section -->
-        <div class="row">
-            <div class="col-xl-8 offset-xl-2 col-lg-10 offset-lg-1 download">
-                <div class="row ">
-                    <div class="col-4 offset-4 ">
-                        <h2>دانلود اپلیکیشن جاسترو</h2>
-                    </div>
-                </div>
-
-                <div class="row">
-                    <div class="col-xl-8 offset-xl-2 download-num-desc">
-                        <p>شما می‌تونید با وارد کردن شماره همراه خود در کارد پایین، لینک دانلود اپلیکیشن رو دریافت کنید
-                        </p>
-                    </div>
-                </div>
-
-                <div class="row">
-                    <div class="col-xl-12 px-0 download-box">
-                        <img src="./img/021_dlbox_icon_download.svg">
-                        <div class="download-box-input">
-                            <input type="text" placeholder="09" dir="ltr">
-                            <button class="header-btn-dl">دانلود</button>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="row">
-                    <div class="col-xl-12 download-num-desc">
-                        <p>یا از یکی از روشهای زیر اپلیکیشن جاسترو رو دانلود کنید</p>
-                    </div>
-                </div>
-
-                <div class="row">
-                    <div class="col-xl-6 offset-xl-3 col-md-6 offset-md-3 pt-3 download-app">
-                        <ul>
-                            <li><span class="icon-interface"></span>دانلود مستقیم</li>
-                            <li><span class="icon-social-media"></span>Google Play</li>
-                            <li class="download-app-bazar">
-                                <img src="./img/bazar.png">
-                                کافه بازار
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- End download-1 section -->
-
-        <!-- Start download-2 section -->
-        <div class="row">
-            <div class="col-12 download-2 my-5">
-                <div class="row">
-                    <div class="col-12 download-2-box">
-                        <img src="./img/021_dlbox_icon_download.svg">
-
-                    </div>
-                </div>
-
-
-                <div class="row ">
-                    <div class="col-8 offset-2 text-center">
-                        <h2>دانلود اپلیکیشن جاسترو</h2>
-                    </div>
-                </div>
-
-                <div class="row">
-                    <div class="col-12 download-2-num-desc mt-3">
-                        <p>شما می‌تونید با وارد کردن شماره همراه خود در کارد پایین، لینک دانلود اپلیکیشن رو دریافت کنید
-                        </p>
-                    </div>
-                </div>
-
-                <div class="row">
-                    <div class="col-12 my-3">
-                        <div class="download-2-input d-flex flex-column justify-content-center align-items-center ">
-                            <input type="text" placeholder="09" dir="ltr" class="mb-5">
-                            <button class="header-btn-dl">دانلود</button>
-                        </div>
-                    </div>
-                </div>
-
-
-                <div class="row">
-                    <div class="col-12 download-2-num-desc my-5">
-                        <p>یا از یکی از روشهای زیر اپلیکیشن جاسترو رو دانلود کنید</p>
-                    </div>
-                </div>
-
-                <div class="row">
-                    <div class="col-12  download-2-app">
-                        <ul>
-                            <li><span class="icon-interface"></span>دانلود مستقیم</li>
-                            <li><span class="icon-social-media"></span>Google Play</li>
-                            <li class="download-2-app-bazar">
-                                <img src="./img/bazar.png">
-                                کافه بازار
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- End download-2 section -->
-
-        <!-- Start ready trip xs-sm-md section -->
-        <div class="row d-lg-none">
-            <div class="col-12 px-0 mx-auto text-center ready-trip">
-                <div class="ready-trip-bg">
-                    <div class="ready-trip-head">
-                        <h2>آمادگی سفر</h2>
-                    </div>
-                    <div class="ready-trip-desc">
-                        <p>لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است.
-                            چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است و برای شرایط فعلی
-                            تکنولوژی.
-                        </p>
-                    </div>
-                    <div class=" ready-trip-btn mt-5">
-                        <button class="header-btn-dl"><span>&#8592;</span> آماده سفر شو</button>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- End ready trip xs-sm-md section -->
-
-
-        <!-- Start ready trip lg-xl section -->
-        <div class="row d-none d-lg-flex">
-            <div class="col-12 px-0 mx-auto text-center ready-trip-2 ">
-                <div class="ready-trip-2-bg">
-                    <div class="ready-trip-2-head">
-                        <h2>آمادگی سفر</h2>
-                    </div>
-                    <div class="ready-trip-2-desc">
-                        <p>لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است.
-                            چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است و برای شرایط فعلی
-                            تکنولوژی مورد نیاز و کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد.
-                            کتابهای زیادی در شصت و سه درصد گذشته، حال و آینده شناخت فراوان جامعه و متخصصان را می طلبد تا
-                            با نرم افزارها شناخت بیشتری را برای طراحان رایانه ای علی الخصوص طراحان خلاقی و فرهنگ پیشرو
-                            در زبان فارسی ایجاد کرد.
-                        </p>
-                    </div>
-                    <div class=" ready-trip-2-btn mt-5">
-                        <button class="header-btn-dl"><span>&#8592;</span> آماده سفر شو</button>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- End ready trip lg-xl section -->
-
-    </div>
-
-
-    <script src="./js/jquery-3.4.1.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
-    <script src="./bootstrap/js/bootstrap.js"></script>
-    <script src="./js/app.js"></script>
+                        <script src="./js/jquery-3.4.1.min.js"></script>
+                        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
+                        <script src="./bootstrap/js/bootstrap.js"></script>
+                        <script src="./js/app.js"></script>
 </body>
 
 </html>
