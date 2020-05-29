@@ -643,6 +643,68 @@ li {
   opacity: 0.8;
 }
 
+.receive-mail {
+  text-align: center;
+  margin: 0 auto;
+}
+
+.receive-mail-desc p {
+  font-size: 1.6rem;
+  line-height: 2.4rem;
+}
+
+.receive-mail-input {
+  width: 50rem;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.receive-mail-input input {
+  padding: 0 1rem 0 0;
+}
+
+.receive-mail-input button {
+  width: 12rem;
+}
+
+.receive-mail-2 {
+  text-align: center;
+  background-color: #e1fff8;
+}
+
+.receive-mail-2-desc p {
+  font-size: 1.6rem;
+}
+
+.receive-mail-2-input {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.receive-mail-2-input input {
+  width: 33rem;
+  height: 4rem;
+  border-radius: 2.5rem;
+  box-shadow: 0 0.4rem 2rem 0 rgba(0, 88, 67, 0.17);
+  font-size: 1.5rem;
+  padding: 0 1rem 0 0;
+  outline: 0;
+  border: none;
+}
+
+.receive-mail-2-input button {
+  width: 14rem;
+  height: 4rem;
+  border-radius: 2.5rem;
+  box-shadow: 0 0.7rem 2rem 0 rgba(227, 84, 39, 0.3);
+  background-image: linear-gradient(to top, #e35325, #ff8a65);
+  border: none;
+  color: #ffffff;
+  font-size: 1.5rem;
+}
+
 .hamburger-menu {
   width: 4rem;
   height: 4rem;
@@ -858,6 +920,9 @@ li {
   .slider-img img {
     width: 37rem;
   }
+  .receive-mail {
+    display: none;
+  }
 }
 
 @media only screen and (min-width: 576px) {
@@ -894,6 +959,9 @@ li {
 
 @media only screen and (max-width: 576px) {
   .download {
+    display: none;
+  }
+  .receive-mail {
     display: none;
   }
 }
@@ -947,6 +1015,12 @@ li {
   }
   .download-box-input button {
     width: 12rem;
+  }
+  .receive-mail-input {
+    width: 65%;
+  }
+  .receive-mail-input input {
+    width: 43rem;
   }
 }
 

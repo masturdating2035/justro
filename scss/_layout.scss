@@ -652,3 +652,71 @@
 
   }
 }
+
+
+// Receive Mail Section
+.receive-mail {
+  text-align: center;
+  margin: 0 auto;
+
+  &-desc {
+    p {
+      font-size: 1.6rem;
+      line-height: 2.4rem;
+    }
+  }
+
+  &-input {
+    width: 50rem;
+    text-align: center;
+    margin: 0 auto;
+
+    input {
+      padding: 0 1rem 0 0;
+    }
+
+    button {
+      width: 12rem;
+    }
+  }
+}
+
+// Receive Mail-2 Section
+.receive-mail-2 {
+  text-align: center;
+  background-color: #e1fff8;
+
+  &-desc {
+    p {
+      font-size: 1.6rem;
+    }
+  }
+
+  &-input {
+    @include flex-center;
+    flex-direction: column;
+
+
+    input {
+      width: 33rem;
+      height: 4rem;
+      border-radius: 2.5rem;
+      box-shadow: 0 .4rem 2rem 0 rgba(0, 88, 67, 0.17);
+      font-size: 1.5rem;
+      padding: 0 1rem 0 0;
+      outline: 0;
+      border: none;
+    }
+
+    button{
+      width: 14rem;
+      height:4rem;
+      border-radius: 2.5rem;
+      box-shadow: 0 .7rem 2rem 0 rgba(227, 84, 39, 0.3);
+      background-image: linear-gradient(to top, $color-secondary-dark, $color-secondary);
+      border: none;
+      color: #ffffff;
+      font-size: 1.5rem;
+    }
+  }
+}

@@ -36,15 +36,15 @@
   }
 
   .trip-idea {
-   
+
     &-slides {
       overflow-x: hidden;
-  
+
       img {
         width: 19.15%;
-        height: 13vw; 
+        height: 13vw;
       }
-  
+
     }
   }
 }
@@ -175,6 +175,10 @@
     }
   }
 
+  .receive-mail {
+   display: none;
+  }
+
 }
 
 
@@ -228,6 +232,10 @@
 // max-width: 576px
 @media only screen and (max-width: 576px) {
   .download {
+    display: none;
+  }
+
+  .receive-mail {
     display: none;
   }
 }
@@ -309,6 +317,19 @@
           width: 12rem;
         }
       }
+    }
+  }
+
+  .receive-mail {
+    &-input {
+      width: 65%;
+      // background-color: red;
+
+      input {
+        width: 43rem;
+      }
+
+
     }
   }
 }

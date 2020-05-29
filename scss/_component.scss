@@ -65,9 +65,10 @@
 
 
 // Loading
-.container-fluid{
+.container-fluid {
   display: none;
 }
+
 .loading {
   width: 200px;
   height: 200px;
@@ -110,5 +111,3 @@
   animation: dot-3-move 2s ease infinite,
     index 6s ease infinite;
 }
-
-
