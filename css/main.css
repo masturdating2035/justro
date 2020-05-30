@@ -705,6 +705,72 @@ li {
   font-size: 1.5rem;
 }
 
+footer .footer {
+  background-color: #005843;
+  background-image: url("../img/025_footer_Bg.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+footer .footer-social {
+  position: absolute;
+  top: 20%;
+  left: 7%;
+}
+
+footer .footer-social span {
+  margin: 0 1rem;
+  font-size: 2rem;
+}
+
+footer .footer-social span:first-child {
+  background-color: #29b6f6;
+  color: #fff;
+  border-radius: 50%;
+  padding: 1rem;
+}
+
+footer .footer-social span:nth-child(2) {
+  background-color: #ec407a;
+  color: #fff;
+  border-radius: 50%;
+  padding: 1rem;
+}
+
+footer .footer-social span:last-child {
+  background-color: #29b6f6;
+  color: #fff;
+  border-radius: 50%;
+  padding: 1rem;
+}
+
+footer .footer-links ul li {
+  margin: 1.1rem;
+}
+
+footer .footer-links ul li a {
+  color: #ffffff;
+}
+
+footer .footer-logo {
+  text-align: center;
+  height: 0;
+  padding-bottom: 8.5%;
+  overflow: hidden;
+}
+
+footer .footer-logo img {
+  width: 5.2rem;
+  border-radius: 50%;
+}
+
+footer .footer-logo .icon-phone,
+footer .footer-logo .icon-envelop {
+  font-size: 1.3rem;
+  color: #ffffff;
+}
+
 .hamburger-menu {
   width: 4rem;
   height: 4rem;
@@ -949,6 +1015,25 @@ li {
   .mobile-phone img {
     width: 35rem;
   }
+  footer .footer-social {
+    top: 25%;
+  }
+  footer .footer-social span {
+    font-size: 2.1rem;
+  }
+  footer .footer-links ul li a {
+    font-size: 1.2rem;
+  }
+  footer .footer-logo {
+    padding-bottom: 6.3%;
+  }
+  footer .footer-logo img {
+    width: 6rem;
+  }
+  footer .footer-logo .icon-phone,
+  footer .footer-logo .icon-envelop {
+    font-size: 1.5rem;
+  }
 }
 
 @media only screen and (min-width: 577px) {
@@ -999,6 +1084,16 @@ li {
   }
   .trip-idea-desc p {
     font-size: 1.6rem;
+  }
+  footer .footer-logo {
+    padding-bottom: 5.5%;
+  }
+  footer .footer-logo img {
+    width: 6.5rem;
+  }
+  footer .footer-logo .icon-phone,
+  footer .footer-logo .icon-envelop {
+    font-size: 1.7rem;
   }
 }
 

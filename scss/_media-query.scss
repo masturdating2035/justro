@@ -176,7 +176,7 @@
   }
 
   .receive-mail {
-   display: none;
+    display: none;
   }
 
 }
@@ -215,6 +215,43 @@
     &-phone {
       img {
         width: 35rem;
+      }
+    }
+  }
+
+  footer {
+    .footer {
+      &-social {
+        top: 25%;
+
+        span {
+          font-size: 2.1rem;
+        }
+      }
+
+      &-links {
+
+        ul {
+          li {
+            a {
+              font-size: 1.2rem;
+            }
+          }
+
+        }
+      }
+
+      &-logo {
+        padding-bottom: 6.3%;
+
+        img {
+          width: 6rem;
+        }
+
+        .icon-phone,
+        .icon-envelop {
+          font-size: 1.5rem;
+        }
       }
     }
   }
@@ -294,6 +331,23 @@
       }
     }
   }
+
+  footer {
+    .footer {
+      &-logo {
+        padding-bottom: 5.5%;
+
+        img {
+          width: 6.5rem;
+        }
+
+        .icon-phone,
+        .icon-envelop {
+          font-size: 1.7rem;
+        }
+      }
+    }
+  }
 }
 
 // max-width: 768px
@@ -323,7 +377,6 @@
   .receive-mail {
     &-input {
       width: 65%;
-      // background-color: red;
 
       input {
         width: 43rem;
