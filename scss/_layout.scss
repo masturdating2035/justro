@@ -740,21 +740,21 @@ footer {
         margin: 0 1rem;
         font-size: 2rem;
 
-        &:first-child{
+        &:first-child {
           background-color: #29b6f6;
           color: #fff;
           border-radius: 50%;
           padding: 1rem;
         }
 
-        &:nth-child(2){
+        &:nth-child(2) {
           background-color: #ec407a;
           color: #fff;
           border-radius: 50%;
           padding: 1rem;
         }
 
-        &:last-child{
+        &:last-child {
           background-color: #29b6f6;
           color: #fff;
           border-radius: 50%;
@@ -793,6 +793,131 @@ footer {
       .icon-envelop {
         font-size: 1.3rem;
         color: #ffffff;
+      }
+    }
+  }
+}
+
+
+// Footer-2
+footer {
+  .footer-2 {
+    height: 15rem;
+    background-image: url('../img/025_footer_Bg.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-bottom: 8rem;
+    position: relative;
+
+    &-stone {
+      width: 35rem;
+      background-image: url('../img/026_footer_c.right_bg.svg');
+      background-repeat: no-repeat;
+      position: absolute;
+      bottom: 0;
+
+      &-inner {
+        img {
+          width: 5rem;
+          border-radius: 50%;
+          position: relative;
+          bottom: 1.8rem;
+          right: 45%;
+        }
+
+        p {
+          width: 26rem;
+          font-size: 1.2rem;
+          margin: 0;
+          position: relative;
+          right: 11%;
+        }
+      }
+    }
+
+    &-links {
+      @include flex-center;
+
+      ul {
+        position: relative;
+        top: 5.5rem;
+
+        li {
+          margin: 1rem;
+          list-style-type: circle;
+          color: #ffffff;
+          font-size: 1rem;
+
+          a {
+            color: #ffffff;
+            font-size: 1rem;
+          }
+        }
+      }
+    }
+
+    &-contact {
+      height: 5.5rem;
+      display: flex;
+      justify-content: flex-end;
+      align-items: flex-end;
+      color: #ffffff;
+      padding-left: 10rem;
+
+      &-phone {
+        margin-left: 3rem;
+        font-size: 1.2rem;
+      }
+
+      &-mail {
+        font-size: 1.2rem;
+
+        span {
+          margin-right: 0.5rem;
+        }
+      }
+    }
+
+    &-social {
+      width: 10rem;
+      display: flex;
+      justify-content: space-between;
+      color: #ffffff;
+      position: absolute;
+      top: 15%;
+      left: 25%;
+
+      .icon {
+
+        &-twitter {
+          font-size: 2.2rem;
+          background-color: #eee;
+          border-radius: 50%;
+          padding: 1rem;
+          color: #29b6f6;
+        }
+
+        &-instagram {
+          font-size: 2.2rem;
+          background-color: #eee;
+          border-radius: 50%;
+          padding: 1rem;
+          color: #ec407a;
+          position: absolute;
+          top: 55%;
+          left: 0;
+        }
+
+        &-telegram {
+          font-size: 2.2rem;
+          background-color: #eee;
+          border-radius: 50%;
+          padding: 1rem;
+          color: #29b6f6;
+          position: absolute;
+          top: 76%;
+          left: -6.3rem;
+        }
       }
     }
   }
